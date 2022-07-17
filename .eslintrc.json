@@ -1,0 +1,20 @@
+{
+  "excludedFiles": "*.test.js", //ignore file don't check .test.js
+  "rules": {
+    "indent": ["error", 2],
+    "semi": ["error", "always"],
+    "quotes": ["error", "false"],
+    "eslint no-unused-vars": ["error", { "vars": "local" }]
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  }
+  
+}
